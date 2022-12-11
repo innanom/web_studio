@@ -1,0 +1,31 @@
+.address__list {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    transition: color var(--anima-fast);
+}
+
+.address__iteam {
+    width: 231px;
+
+
+    &:not(:last-child) {
+        margin-bottom: 9px;
+        }
+}
+
+.address__link--city-color {
+    color: var(--primary-color);
+}
+
+.address__link--info,
+.address__link--tel {
+    color: var(--secondary-contacts-color);
+}
+
+.address__link:hover,
+.address__link:focus {
+    color: var(--accent-color);
+}

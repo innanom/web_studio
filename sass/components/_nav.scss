@@ -1,12 +1,18 @@
 .nav {
-    display: flex;
-    align-items: center;
+    @media screen and (max-width: 767px) {
+            display: none;
+    }
+
+    @media screen and (min-winght: 768px) {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .nav__list {
     display: flex;
     margin-left: 93px;
-    margin-right: 318px;
+    margin-right: 96px;
 }
 
 .nav__iteam:not(:last-child) {

@@ -134,6 +134,12 @@ button {
   margin-left: 93px;
   margin-right: 96px;
 }
+@media screen and (min-width: 1200px) {
+  .nav__list {
+    margin-left: 92px;
+    margin-right: 315px;
+  }
+}
 
 .nav__iteam:not(:last-child) {
   margin-right: 50px;
@@ -181,23 +187,58 @@ button {
     display: block;
   }
 }
+@media screen and (min-width: 1200px) {
+  .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
+    width: 100%;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .contacts__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
     font-weight: 500;
     font-size: 12px;
     line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+  }
+  .contacts__link:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     -webkit-transition: color var(--anima-fast);
     transition: color var(--anima-fast);
   }
   .contacts__link:not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 0;
   }
-}
-.contacts__link:hover, .contacts__link:focus {
-  color: var(--accent-color);
+  .contacts__link:hover, .contacts__link:focus {
+    color: var(--accent-color);
+  }
 }
 
 .contacts__mail,
@@ -211,11 +252,23 @@ button {
     height: 10px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .contacts__mail {
+    width: 16px;
+    height: 12px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .contacts__phone {
     width: 10px;
     height: 14px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contacts__phone {
+    width: 10px;
+    height: 16px;
   }
 }
 

@@ -13,6 +13,11 @@
     display: flex;
     margin-left: 93px;
     margin-right: 96px;
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 92px;
+        margin-right: 315px;
+    }
 }
 
 .nav__iteam:not(:last-child) {

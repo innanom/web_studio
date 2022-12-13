@@ -216,6 +216,9 @@ button {
   }
 }
 
+.contacts__link {
+  display: none;
+}
 @media screen and (min-width: 768px) {
   .contacts__link {
     display: -webkit-box;

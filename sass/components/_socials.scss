@@ -1,9 +1,14 @@
- .socials {
+.socials {
      display: flex;
      justify-content: center;
      align-items: center;
      gap: 10px;
- }
+     margin-bottom: 24px;
+
+    @media screen and (min-width: 1200px) {
+            margin-bottom: 30px;
+        }
+}
 
  .socials__link {
      display: flex;

@@ -476,9 +476,14 @@ button {
 .our-team__list {
   --items: 1;
 }
+@media screen and (min-width: 768px) {
+  .our-team__list {
+    --items: 2;
+  }
+}
 @media screen and (min-width: 1200px) {
   .our-team__list {
-    --items: 3;
+    --items: 4;
   }
 }
 
@@ -493,6 +498,11 @@ button {
   padding-top: 30px;
   padding-bottom: 16px;
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .our-team__cards {
+    padding-bottom: 30px;
+  }
 }
 
 .our-team__subtitle {

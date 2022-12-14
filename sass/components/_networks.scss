@@ -6,6 +6,9 @@
     // width: 206px;
     // margin-right: 93px;
     padding: 0;
+    @media screen and (min-width: 768px) {
+            margin-bottom: 102px;
+        }
 }
 
 .networks__title {
@@ -16,4 +19,9 @@
     text-transform: uppercase;
 
     color: var(--primary-color);
+
+    @media screen and (min-width: 768px) {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
 }

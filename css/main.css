@@ -725,6 +725,24 @@ button {
 .footer__adress {
   margin-bottom: 60px;
 }
+@media screen and (min-width: 768px) {
+  .footer__adress {
+    margin-right: 165px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 .footer__logo {
   text-align: center;
@@ -766,6 +784,11 @@ button {
   margin-bottom: 60px;
   padding: 0;
 }
+@media screen and (min-width: 768px) {
+  .networks {
+    margin-bottom: 102px;
+  }
+}
 
 .networks__title {
   font-size: 14px;
@@ -774,6 +797,12 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-color);
+}
+@media screen and (min-width: 768px) {
+  .networks__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
 }
 
 .subscription {

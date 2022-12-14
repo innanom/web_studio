@@ -1,6 +1,8 @@
 .subscription {
     display: block;
     justify-content: center;
+    
+    
     // width: 570px;
     padding: 0;
 }
@@ -15,16 +17,16 @@
     color: var(--primary-color);
 }
 
-.subscription__user-mail {
-    
-    
-    // display: flex;
-    // gap: 12px;
-}
+// .subscription__user-mail {
+       
+//     // display: flex;
+//     // gap: 12px;
+// }
 
 
 .subscription__e-mail {
     margin-bottom: 20px;
+
     width: 450px;
     height: 50px;
     

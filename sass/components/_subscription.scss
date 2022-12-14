@@ -1,16 +1,14 @@
 .subscription {
     display: block;
-    width: 570px;
+    justify-content: center;
+    // width: 570px;
     padding: 0;
 }
 
 .subscription__title {
-    margin-top: 14px;
-    margin-bottom: 20px;
-
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
@@ -18,12 +16,19 @@
 }
 
 .subscription__user-mail {
-    display: flex;
-    gap: 12px;
+    
+    
+    // display: flex;
+    // gap: 12px;
 }
 
+
 .subscription__e-mail {
-    width: 358px;
+    margin-bottom: 20px;
+    width: 450px;
+    height: 50px;
+    
+    // width: 358px;
     padding-left: 16px;
 
     font-size: 16px;
@@ -40,6 +45,8 @@
     display: flex;
     align-items: center;
     text-align: center;
+
+    margin: 0 auto;
     padding: 10px 28px;
     gap: 10px;
     cursor: pointer;

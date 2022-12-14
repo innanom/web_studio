@@ -31,8 +31,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    min-width: 528px;
-    min-height: 581px;
+    min-width: 450px;
+    min-height: 609px;
     padding: 40px;
 
     background: var(--primary-color);
@@ -42,6 +42,11 @@
     transform: translate (-50%, -50%) scale(1);
 
     transition: transform var(--anima-fast), opacity var(--anima-fast);
+
+    @media screen and (min-width: 1200px) {
+        min-width: 528px;
+        min-height: 581px;
+    }
 }
 
 .modal__btn-close {
@@ -76,11 +81,15 @@
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.15;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
 
     color: var(--primary-heading-color);
+
+    @media screen and (min-width: 1200px) {
+            line-height: 1.15;
+    }
 }
 
 .modal__form-group {

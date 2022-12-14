@@ -1,18 +1,22 @@
-// .address {
- 
-// }
 .address__list {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     text-align: center;
     letter-spacing: 0.03em;
 
     transition: color var(--anima-fast);
+
+    @media screen and (min-width: 1200px) {
+        text-align: start;
+    }
 }
 
 .address__iteam {
+    @media screen and (min-width: 1200px){
+        width: 231px;
+    }
     
-    // width: 231px;
 
 
     &:not(:last-child) {

@@ -3,12 +3,16 @@
     justify-content: center;
 
     margin-bottom: 60px;
-    // width: 206px;
-    // margin-right: 93px;
+    
     padding: 0;
     @media screen and (min-width: 768px) {
-            margin-bottom: 102px;
-        }
+        margin-bottom: 102px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: 206px;
+        margin-right: 93px;
+        margin-bottom: 0;
+    }
 }
 
 .networks__title {
@@ -21,7 +25,11 @@
     color: var(--primary-color);
 
     @media screen and (min-width: 768px) {
-            margin-top: 0;
-            margin-bottom: 20px;
-        }
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    @media screen and (min-width: 1200px) {
+        text-align: start;
+        margin-top: 14px;
+    }
 }

@@ -108,31 +108,67 @@
       </section>
 
       <!-- What are we doing? -->
-      <!-- <section class="devices section">
+      <section class="devices section">
         <div class="container">
           <h2 class="devices__title">Чим ми займаємося</h2>
           <ul class="devices__list list">
             <li class="devices__iteam">
-              <img src="./images/box1.jpg" alt="девайси" width="370" height="294" />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/devices/img-1_l@1x.jpg 1x, ./images/devices/img-1_l@2x.jpg 2x"
+                />
+                <img
+                  src="./images/devices/img-1_l@1x.jpg"
+                  alt="девайси"
+                  width="370"
+                  height="294"
+                  loading="lazy"
+                />
+              </picture>
               <div class="devices__overlay">
                 <p class="devices__text">Десктопні додатки</p>
               </div>
             </li>
             <li class="devices__iteam">
-              <img src="./images/box2.jpg" alt="девайси width="370" height="294""/>
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/devices/img-2_l@1x.jpg 1x, ./images/devices/img-2_l@2x.jpg 2x"
+                />
+                <img
+                  src="./images/devices/img-2_l@1x.jpg"
+                  alt="девайси"
+                  width="370"
+                  height="294"
+                  loading="lazy"
+                />
+              </picture>
               <div class="devices__overlay">
                 <p class="devices__text">Мобільні додатки</p>
               </div>
             </li>
             <li class="devices__iteam">
-              <img src="./images/box3.jpg" alt="девайси width="370" height="294""/>
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="./images/devices/img-3_l@1x.jpg 1x, ./images/devices/img-3_l@2x.jpg 2x"
+                />
+                <img
+                  src="./images/devices/img-3_l@1x.jpg"
+                  alt="девайси"
+                  width="370"
+                  height="294"
+                  loading="lazy"
+                />
+              </picture>
               <div class="devices__overlay">
                 <p class="devices__text">Дизайнерські рішення</p>
               </div>
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- Our-team -->
       <section class="our-team section">
@@ -144,22 +180,24 @@
                 <source
                   media="(min-width: 1200px)"
                   srcset="./images/team/img-1_l@1x.jpg 1x, ./images/team/img-1_l@2x.jpg 2x"
-                 />
-                <source 
-                  media="(min-width: 768px)" 
-                  srcset="./images/team/img-1_m@1x.jpg 1x, ./images/team/img-1_m@2x.jpg 2x" />
-                <source 
-                media="(max-width: 767px)" 
-                srcset="./images/team/img-1_s@1x.jpg 1x, ./images/team/img-1_s@2x.jpg 2x" />
+                />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/team/img-1_m@1x.jpg 1x, ./images/team/img-1_m@2x.jpg 2x"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/team/img-1_s@1x.jpg 1x, ./images/team/img-1_s@2x.jpg 2x"
+                />
 
-                <img 
-                  src="./images/team/img-1_s@1x.jpg 1x" 
-                  alt="Ігор Дем'яненко" 
-                  width="450" 
-                  height="460" 
+                <img
+                  src="./images/team/img-1_s@1x.jpg"
+                  alt="Ігор Дем'яненко"
+                  width="450"
+                  height="460"
                   loading="lazy"
                 />
-               </picture>
+              </picture>
 
               <div class="our-team__cards">
                 <h3 class="our-team__subtitle">Ігор Дем'яненко</h3>
@@ -226,22 +264,24 @@
                   media="(min-width: 1200px)"
                   srcset="./images/team/img-2_l@1x.jpg 1x, ./images/team/img-2_l@2x.jpg 2x"
                 />
-                <source 
-                  media="(min-width: 768px)" 
-                  srcset="./images/team/img-2_m@1x.jpg 1x, ./images/team/img-2_m@2x.jpg 2x" />
-                <source 
-                media="(max-width: 767px)" 
-                srcset="./images/team/img-2_s@1x.jpg 1x, ./images/team/img-2_s@2x.jpg 2x" />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/team/img-2_m@1x.jpg 1x, ./images/team/img-2_m@2x.jpg 2x"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/team/img-2_s@1x.jpg 1x, ./images/team/img-2_s@2x.jpg 2x"
+                />
 
-                <img 
-                  src="./images/team/img-2_s@1x.jpg 1x" 
-                  alt="Ольга Рєпіна" 
-                  width="450" 
-                  height="460" 
+                <img
+                  src="./images/team/img-2_s@1x.jpg"
+                  alt="Ольга Рєпіна"
+                  width="450"
+                  height="460"
                   loading="lazy"
                 />
-               </picture>
-              
+              </picture>
+
               <div class="our-team__cards">
                 <h3 class="our-team__subtitle">Ольга Рєпіна</h3>
                 <p class="our-team__text">Frontend Developer</p>
@@ -307,21 +347,23 @@
                   media="(min-width: 1200px)"
                   srcset="./images/team/img-3_l@1x.jpg 1x, ./images/team/img-3_l@2x.jpg 2x"
                 />
-                <source 
-                  media="(min-width: 768px)" 
-                  srcset="./images/team/img-3_m@1x.jpg 1x, ./images/team/img-3_m@2x.jpg 2x" />
-                <source 
-                media="(max-width: 767px)" 
-                srcset="./images/team/img-3_s@1x.jpg 1x, ./images/team/img-3_s@2x.jpg 2x" />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/team/img-3_m@1x.jpg 1x, ./images/team/img-3_m@2x.jpg 2x"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/team/img-3_s@1x.jpg 1x, ./images/team/img-3_s@2x.jpg 2x"
+                />
 
-                <img 
-                  src="./images/team/img-3_s@1x.jpg 1x" 
-                  alt="Микола Тарасов" 
-                  width="450" 
-                  height="460" 
+                <img
+                  src="./images/team/img-3_s@1x.jpg"
+                  alt="Микола Тарасов"
+                  width="450"
+                  height="460"
                   loading="lazy"
                 />
-               </picture>
+              </picture>
               <div class="our-team__cards">
                 <h3 class="our-team__subtitle">Микола Тарасов</h3>
                 <p class="our-team__text">Marketing</p>
@@ -387,21 +429,23 @@
                   media="(min-width: 1200px)"
                   srcset="./images/team/img-4_l@1x.jpg 1x, ./images/team/img-4_l@2x.jpg 2x"
                 />
-                <source 
-                  media="(min-width: 768px)" 
-                  srcset="./images/team/img-4_m@1x.jpg 1x, ./images/team/img-4_m@2x.jpg 2x" />
-                <source 
-                media="(max-width: 767px)" 
-                srcset="./images/team/img-4_s@1x.jpg 1x, ./images/team/img-4_s@2x.jpg 2x" />
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/team/img-4_m@1x.jpg 1x, ./images/team/img-4_m@2x.jpg 2x"
+                />
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/team/img-4_s@1x.jpg 1x, ./images/team/img-4_s@2x.jpg 2x"
+                />
 
-                <img 
-                  src="./images/team/img-4_s@1x.jpg 1x" 
-                  alt="Михайло Єрмаков" 
-                  width="450" 
-                  height="460" 
+                <img
+                  src="./images/team/img-4_s@1x.jpg"
+                  alt="Михайло Єрмаков"
+                  width="450"
+                  height="460"
                   loading="lazy"
                 />
-               </picture>
+              </picture>
               <div class="our-team__cards">
                 <h3 class="our-team__subtitle">Михайло Єрмаков</h3>
                 <p class="our-team__text">UI Designer</p>

@@ -459,7 +459,15 @@ button {
 }
 
 .devices {
-  padding-top: 0;
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .devices {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 0;
+  }
 }
 
 .devices__title {

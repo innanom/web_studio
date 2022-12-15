@@ -1,5 +1,10 @@
 .devices {
-    padding-top: 0;
+    display: none;
+    
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        padding-top: 0;
+    }
 }
 
 .devices__title {
@@ -12,10 +17,13 @@
     letter-spacing: 0.03em;
 
     color: var(--primary-heading-color);
+    
 }
 
 .devices__list {
-    display: flex;
+   
+        display: flex;
+    
 }
 
 .devices__iteam {
@@ -51,3 +59,4 @@
 
     color: var(--primary-color);
 }
+

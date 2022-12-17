@@ -2,6 +2,12 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.footer__container {
+    @media screen and (min-width: 768px) {  
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 .footer--bg {
     background: var(--background-color);
@@ -9,6 +15,7 @@
 
 .footer__adress {
     margin-bottom: 60px;  
+    
     @media screen and (min-width: 768px) {
         margin-right: 165px;
     }

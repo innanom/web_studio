@@ -3,8 +3,12 @@
     justify-content: center;
     padding: 0;
 
+    @media screen and (min-width: 768px) {
+            width: 450px;
+    }
+
     @media screen and (min-width: 1200px) {
-            width: 570px;
+         width: 570px;
     }
 }
 
@@ -27,6 +31,8 @@
 }
 
 .subscription__user-mail {
+
+      
     @media screen and (min-width: 1200px) {
         display: flex;
         gap: 12px;
@@ -38,7 +44,7 @@
 .subscription__e-mail {
     margin-bottom: 20px;
 
-    width: 450px;
+    width: 100%;
     height: 50px;
     
     
@@ -54,6 +60,7 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
 
+    
     @media screen and (min-width: 1200px) {
         width: 358px; 
         margin-bottom: 0; 

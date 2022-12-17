@@ -20,9 +20,9 @@
     flex-wrap: wrap;
     gap: 30px;
 
-    @media screen and (min-width: 1200px) {
-        flex-wrap: nowrap;
-    }
+    @media screen and (max-width: 479px) {
+           justify-content: center;
+        }
 }
 
 .clients__link {

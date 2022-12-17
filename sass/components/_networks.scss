@@ -1,13 +1,11 @@
 .networks {
     display: block;
+    align-items: center;
     justify-content: center;
-
     margin-bottom: 60px;
-    
+
     padding: 0;
-    @media screen and (min-width: 768px) {
-        margin-bottom: 102px;
-    }
+   
     @media screen and (min-width: 1200px) {
         width: 206px;
         margin-right: 93px;
